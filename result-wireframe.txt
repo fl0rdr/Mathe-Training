@@ -1,0 +1,31 @@
+MATH TRAINING - RESULT SCREEN
+
++--------------------------------------------------------------------------------------+
+| Math Training                                                        [Home] |
++--------------------------------------------------------------------------------------+
+|                                                                                      |
+| Result Summary                                                                      |
+|                                                                                      |
+| Player: Alex                                                                        |
+| Mode: Test                                                                          |
+| Total Questions: 20                                                                 |
+| Correct: 18                                                                         |
+| Wrong: 2                                                                            |
+| Accuracy: 90%                                                                       |
+| Time: 00:42                                                                         |
+| Rank: #2                                                                            |
+|                                                                                      |
+| Great job!                                                                          |
+|                                                                                      |
+| Incorrect Answers:                                                                  |
+| 7 - 4 = 1 (wrong)                                                                  |
+| 9 + 6 = 14 (wrong)                                                                 |
+|                                                                                      |
+| [Restart]   [Home]                                                                  |
+|                                                                                      |
++--------------------------------------------------------------------------------------+
+
+NOTES
+- Summary is displayed clearly and positively.
+- Leaderboard position is visible.
+- Incorrect answers are shown in a compact review section.

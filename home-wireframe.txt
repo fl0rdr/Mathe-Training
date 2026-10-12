@@ -1,0 +1,32 @@
+MATH TRAINING - HOME SCREEN
+
++--------------------------------------------------------------------------------------+
+| Math Training                                         [Menu ☰]           |
++--------------------------------------------------------------------------------------+
+|                                                                                      |
+| Welcome to Math Training!                                                            |
+| Practice your addition and subtraction in short, fun exercises.                     |
+|                                                                                      |
+| +----------------------+   +----------------------+   +----------------------+     |
+| | Quick Training       |   | Test                 |   | Intensive Test       |     |
+| | 10 tasks             |   | 20 tasks             |   | 40 tasks             |     |
+| | No name required     |   | Name required        |   | Name required        |     |
+| +----------------------+   +----------------------+   +----------------------+     |
+|                                                                                      |
+| +---------------------------------------------------------------+                   |
+| | Leaderboard                                                   |                   |
+| | Test                                                         |                   |
+| | 1. Alex 18/20 90% 00:40                                     |                   |
+| | 2. Mia 17/20 85% 00:45                                       |                   |
+| | 3. Leo 16/20 80% 00:50                                       |                   |
+| | ...                                                         |                   |
+| | [Switch: Test / Intensive]                                   |                   |
+| | [Reset Leaderboard]                                           |                   |
+| +---------------------------------------------------------------+                   |
+|                                                                                      |
++--------------------------------------------------------------------------------------+
+
+NOTES
+- Mode selection cards are the main actions.
+- Leaderboard remains visible on the home screen.
+- Buttons should be large and easy to tap.

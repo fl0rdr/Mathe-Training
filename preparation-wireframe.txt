@@ -1,0 +1,37 @@
+MATH TRAINING - PREPARATION SCREEN
+
+TEST / INTENSIVE TEST PREPARATION
++--------------------------------------------------------------------------------------+
+| Math Training                                          [Back]           |
++--------------------------------------------------------------------------------------+
+|                                                                                      |
+| Mode: Test                                                                           |
+| Questions: 20                                                                       |
+|                                                                                      |
+| Player Name                                                                        |
+| +-------------------------------------------+                                    |
+| | Enter your name                          |                                    |
+| +-------------------------------------------+                                    |
+|                                                                                      |
+| [Start]                                                                             |
+|                                                                                      |
++--------------------------------------------------------------------------------------+
+
+QUICK TRAINING PREPARATION
++--------------------------------------------------------------------------------------+
+| Math Training                                          [Back]           |
++--------------------------------------------------------------------------------------+
+|                                                                                      |
+| Mode: Quick Training                                                                |
+| Questions: 10                                                                       |
+|                                                                                      |
+| No player name required                                                            |
+|                                                                                      |
+| [Start]                                                                             |
+|                                                                                      |
++--------------------------------------------------------------------------------------+
+
+NOTES
+- Test and Intensive Test require a player name.
+- Start button is disabled until a valid name is entered.
+- Back button returns to the home screen.

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Training</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <span class="brand-mark">M</span>
+          <div>
+            <p class="brand-title">Math Training</p>
+          </div>
+        </div>
+
+        <button class="menu-toggle" aria-label="Open navigation">☰</button>
+
+        <nav class="nav" aria-label="Main navigation">
+          <button class="nav-btn active" data-view="home">Home</button>
+          <button class="nav-btn" data-view="quick">Quick Training</button>
+          <button class="nav-btn" data-view="test">Test</button>
+          <button class="nav-btn" data-view="intensive">Intensive</button>
+        </nav>
+      </header>
+
+      <main class="main-content">
+        <section id="homeView" class="view active">
+          <div class="hero-card">
+            <p class="eyebrow">Practice Mode</p>
+            <h1>Math Training</h1>
+            <p>
+              Train your addition and subtraction skills with short, focused exercises.
+            </p>
+          </div>
+
+          <div class="mode-grid">
+            <button class="mode-card" data-mode="quick">
+              <span class="mode-label">Quick Training</span>
+              <span class="mode-meta">10 tasks</span>
+              <span class="mode-meta">No name required</span>
+            </button>
+
+            <button class="mode-card" data-mode="test">
+              <span class="mode-label">Test</span>
+              <span class="mode-meta">20 tasks</span>
+              <span class="mode-meta">Name required</span>
+            </button>
+
+            <button class="mode-card" data-mode="intensive">
+              <span class="mode-label">Intensive Test</span>
+              <span class="mode-meta">40 tasks</span>
+              <span class="mode-meta">Name required</span>
+            </button>
+          </div>
+
+          <div class="leaderboard-panel">
+            <div class="panel-header">
+              <h2>Leaderboard</h2>
+              <div class="toggle-group" aria-label="Leaderboard mode">
+                <button class="toggle-btn active" data-leaderboard="test">Test</button>
+                <button class="toggle-btn" data-leaderboard="intensive">Intensive</button>
+              </div>
+            </div>
+
+            <div class="leaderboard-table-wrap">
+              <table class="leaderboard-table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Score</th>
+                    <th>Time</th>
+                  </tr>
+                </thead>
+                <tbody id="leaderboardBody"></tbody>
+              </table>
+            </div>
+
+            <button id="resetLeaderboardBtn" class="secondary-btn">Reset Leaderboard</button>
+          </div>
+        </section>
+
+        <section id="prepView" class="view">
+          <div class="panel-card">
+            <div class="panel-top">
+              <h2 id="prepTitle">Mode Setup</h2>
+              <button id="backToHomeBtn" class="text-btn">Back</button>
+            </div>
+
+            <div class="setup-row">
+              <span>Mode</span>
+              <strong id="prepModeLabel">Quick Training</strong>
+            </div>
+
+            <div class="setup-row">
+              <span>Questions</span>
+              <strong id="prepQuestionCount">10</strong>
+            </div>
+
+            <div id="playerNameWrap" class="field-wrap hidden">
+              <label for="playerNameInput">Player name</label>
+              <input id="playerNameInput" type="text" maxlength="16" placeholder="Enter your name" />
+            </div>
+
+            <button id="startBtn" class="primary-btn" disabled>Start</button>
+          </div>
+        </section>
+
+        <section id="trainingView" class="view">
+          <div class="panel-card training-card">
+            <div class="training-header">
+              <span id="questionCounter">Question 1 of 10</span>
+              <div class="timer-wrap">
+                <span class="timer-label">Time</span>
+                <strong id="timerValue">00:00</strong>
+              </div>
+            </div>
+
+            <div class="progress-bar">
+              <div id="progressFill" class="progress-fill"></div>
+            </div>
+
+            <div id="questionDisplay" class="question-display">8 + 5 = ?</div>
+
+            <div class="answer-wrap">
+              <label for="answerInput" class="sr-only">Your answer</label>
+              <input id="answerInput" type="number" inputmode="numeric" placeholder="Type your answer" />
+            </div>
+
+            <div class="training-actions">
+              <button id="submitAnswerBtn" class="primary-btn">Submit</button>
+              <button id="cancelTrainingBtn" class="secondary-btn">Cancel</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="resultView" class="view">
+          <div class="panel-card result-card">
+            <h2>Result Summary</h2>
+
+            <div class="result-grid">
+              <div><span>Player</span><strong id="resultName">-</strong></div>
+              <div><span>Mode</span><strong id="resultMode">-</strong></div>
+              <div><span>Correct</span><strong id="resultCorrect">0</strong></div>
+              <div><span>Wrong</span><strong id="resultWrong">0</strong></div>
+              <div><span>Accuracy</span><strong id="resultAccuracy">0%</strong></div>
+              <div><span>Time</span><strong id="resultTime">00:00</strong></div>
+              <div><span>Rank</span><strong id="resultRank">-</strong></div>
+              <div><span>Total</span><strong id="resultTotal">0</strong></div>
+            </div>
+
+            <p id="motivationalMessage" class="motivation-message">Great job!</p>
+
+            <div class="incorrect-summary">
+              <h3>Incorrect Answers</h3>
+              <ul id="incorrectList"></ul>
+            </div>
+
+            <div class="result-actions">
+              <button id="restartBtn" class="primary-btn">Restart</button>
+              <button id="homeFromResultBtn" class="secondary-btn">Home</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

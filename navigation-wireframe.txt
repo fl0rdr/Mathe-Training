@@ -1,0 +1,22 @@
+MATH TRAINING NAVIGATION
+
+EXPANDED NAVIGATION (desktop / tablet)
++--------------------------------------------------------------------------------------+
+| Math Training                            Home   Quick Training   Test   Intensive   |
++--------------------------------------------------------------------------------------+
+
+COLLAPSED NAVIGATION (mobile)
++------------------------------+
+| Math Training        ☰       |
++------------------------------+
+| Home                         |
+| Quick Training               |
+| Test                         |
+| Intensive                    |
++------------------------------+
+
+NOTES
+- Minimal navigation for children.
+- Mobile menu collapses into a hamburger button.
+- No login or account section.
+- Main actions: Home, Quick Training, Test, Intensive.
